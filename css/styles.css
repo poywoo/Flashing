@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px tahoma,sans-serif;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Raleway', serif;
+}
+ 
+/* customize navbar style */
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+
+.navbar-nav li {
+  font-size: 10px;
+}
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #101010;
+    background-color: #E7E7E7;
+    font-size: 14px;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #101010;
+    background-color: #E7E7E7;
+    font-size: 14px;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+    font-size: 14px;
+}
+/* navbar */
+
+
+
+#bg {
+  background: url('../img/Tablet.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-color: Gray;
+  width:auto; 
+  height:100%;
+}
+
+#intro {
+  margin-top: 160px;
+}
+
+div.headline {
+  height: 100%;
+  overflow : hidden;
+  text-align: center;
+  margin-left: 100px;
+}
+
+h1.headline {
+  font-size: 12em;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+
+#change {
+  font-size: 10em;
+  text-align: left;
+  width: 100%;
+  display: block;
+  color: #686868;
+}
+
+@media screen and (max-width: 480px) {
+  h1.headline {
+    font-size: 5em;
+  }
+  #change {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1.headline {
+    font-size: 7em;
+  }
+  #change {
+    font-size: 6em;
+  }
+}
